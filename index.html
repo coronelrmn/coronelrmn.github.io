@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sen&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3b74d0d565.js" crossorigin="anonymous"></script>
+    <title>Portfolio Maquetado</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__left">
+          <img src="https://desa.argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1674860780/APLogo-20-20.png" alt="logo">
+        </div>
+        <div class="nav__right">
+          <div class="nav__right-social-icons">
+            <a href="#facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/romancoronelok/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#github"><i class="fa fa-github"></i></a>
+          </div>
+          <button class="nav__right-login">Login</button>
+        </div>
+    </nav>
+
+    <section class="perfil__container">
+        <div class="perfil__container-banner">
+            <p class="perfil__container-banner-welcome">BIENVENIDO A MI PORTFOLIO</p>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+		    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+		        <defs>
+			        <linearGradient id="bg">
+			        	<stop offset="0%" style="stop-color:#e30"></stop>
+			        	<stop offset="50%" style="stop-color:#e30"></stop>
+			        	<stop offset="100%" style="stop-color:#e30"></stop>
+			        </linearGradient>
+			        <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	                s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+		        </defs>
+		        <g>
+			        <use xlink:href='#wave' opacity=".3">
+			    	<animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="10s"
+                    calcMode="spline"
+                    values="270 230; -334 180; 270 230"
+                    keyTimes="0; .5; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+			        </use>
+			        <use xlink:href='#wave' opacity=".6">
+			    	<animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="8s"
+                    calcMode="spline"
+                    values="-270 230;243 220;-270 230"
+                    keyTimes="0; .6; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+			        </use>
+			        <use xlink:href='#wave' opacty=".9">
+			    	<animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="6s"
+                    calcMode="spline"
+                    values="0 230;-140 200;0 230"
+                    keyTimes="0; .4; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+			        </use>
+		        </g>
+	        </svg>
+        </div>
+        <div class="perfil__container-avatar">
+            <p class="perfil__container-avatar-texto-izq">Román Andrés Coronel</p>
+            <img src="assets/img/person.jpg" id="avatar">
+            <p class="perfil__container-avatar-texto-der">Full Stack Developer Jr</p>
+        </div>
+        <div class="perfil__container-acercade"> 
+            <h2 class="titulos">Acerca de mi:</h2>
+            <p>Me apasiona el mundo de la tecnología y especialmente el desarrollo web, lo que me ha llevado a adquirir conocimientos en programación y diseño web.
+            Me comprometo con mis objetivos y busco siempre aprender cosas nuevas. Me considero un trabajador constante  comprometido con mi desarrollo profesional.
+            Además, he participado en diversos proyectos durante mi carrera universitaria, tanto en el ámbito académico como en proyectos personales. Esto me ha permitido adquirir habilidades de trabajo en equipo, comunicación y liderazgo.         
+            Estoy convencido de que mi pasión por la tecnología, mi formación en ingeniería en mecatrónica y mi experiencia en desarrollo web, puede    aportar mucho valor a cualquier empresa o proyecto.</p> 
+        </div>
+    </section>
+    <section class="educacion__container">
+        <h2 class="titulos">Educación:</h2>
+        <div class="educacion__container-card">
+            <div class="educacion__container-card-img">
+                <img src="assets/img/uner.png">
+            </div>
+            <div class="educacion__container-card-body">
+                <h1 class="educacion__container-card-title">Ingeniera en Mecatronica</h1>
+                <h5 class="educacion__container-card-subtitle">Facultad de Ciencias de la Alimentacion</h5>
+                <p class="educacion__container-card-lapso">2019-Actualidad</p>
+                <p class="educacion__container-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque voluptatem fugiat sunt laborum cum perferendis in magnam nam! Libero distinctio incidunt ipsa iure possimus illo odit ullam eaque sit!</p>
+            </div>
+        </div>
+        <div class="educacion__container-card">
+            <div class="educacion__container-card-img">
+                <img src="assets/img/tecnica1.png">
+            </div>
+            <div class="educacion__container-card-body">
+                <h1 class="educacion__container-card-title">Tecnico Mecanico Electricista</h1>
+                <h5 class="educacion__container-card-subtitle">Escuela De Educación Técnica N°1 "Brig Gral Pascual Echagüe</h5>
+                <p class="educacion__container-card-lapso">2019-Actualidad</p>
+                <p class="educacion__container-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque voluptatem fugiat sunt laborum cum perferendis in magnam nam! Libero distinctio incidunt ipsa iure possimus illo odit ullam eaque sit!</p>
+            </div>
+        </div>
+        <div class="educacion__container-card">
+            <div class="educacion__container-card-img">
+                <img src="assets/img/edteam.png">
+            </div>
+            <div class="educacion__container-card-body">
+                <h1 class="educacion__container-card-title">Cursos de programación y tecnología</h1>
+                <h5 class="educacion__container-card-subtitle">EDTeam</h5>
+                <p class="educacion__container-card-lapso">2019-Actualidad</p>
+                <p class="educacion__container-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque voluptatem fugiat sunt laborum cum perferendis in magnam nam! Libero distinctio incidunt ipsa iure possimus illo odit ullam eaque sit!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills__container">
+        <h2 class="titulos">Hard & Soft skills</h2>
+        <div class="skills__container-cards">
+            <div style="--porcentaje: 90" class="skills__container-card">
+                <div class="skills__container-card-name">HTML</div>
+                <div class="skills__container-circles">
+                    <svg class="skills__container-circles-svg">
+                        <circle class="skills__container-circles-svg-fondo" r="65" cx="50%" cy="50%" pathlength="100"/>
+                        <circle class="skills__container-circles-svg-porcentaje" r="65" cx="50%" cy="50%" pathlength="100"/>
+                    </svg>
+                    <span>90%</span>
+                </div>
+            </div>
+            <div style="--porcentaje: 70" class="skills__container-card">
+                <div class="skills__container-card-name">CSS</div>
+                <div class="skills__container-circles">
+                    <svg class="skills__container-circles-svg">
+                        <circle class="skills__container-circles-svg-fondo" r="65" cx="50%" cy="50%" pathlength="100"/>
+                        <circle class="skills__container-circles-svg-porcentaje" r="65" cx="50%" cy="50%" pathlength="100"/>
+                    </svg>
+                    <span>70%</span>
+                </div>
+            </div>
+            <div style="--porcentaje: 30" class="skills__container-card">
+                <div class="skills__container-card-name">JS</div>
+                <div class="skills__container-circles">
+                    <svg class="skills__container-circles-svg">
+                        <circle class="skills__container-circles-svg-fondo" r="65" cx="50%" cy="50%" pathlength="100"/>
+                        <circle class="skills__container-circles-svg-porcentaje" r="65" cx="50%" cy="50%" pathlength="100"/>
+                    </svg>
+                    <span>30%</span>
+                </div>
+            </div>
+            <div style="--porcentaje: 90" class="skills__container-card">
+                <div class="skills__container-card-name">C</div>
+                <div class="skills__container-circles">
+                    <svg class="skills__container-circles-svg">
+                        <circle class="skills__container-circles-svg-fondo" r="65" cx="50%" cy="50%" pathlength="100"/>
+                        <circle class="skills__container-circles-svg-porcentaje" r="65" cx="50%" cy="50%" pathlength="100"/>
+                    </svg>
+                    <span>90%</span>
+                </div>
+            </div>
+            <div style="--porcentaje: 50" class="skills__container-card">
+                <div class="skills__container-card-name">C++</div>
+                <div class="skills__container-circles">
+                    <svg class="skills__container-circles-svg">
+                        <circle class="skills__container-circles-svg-fondo" r="65" cx="50%" cy="50%" pathlength="100"/>
+                        <circle class="skills__container-circles-svg-porcentaje" r="65" cx="50%" cy="50%" pathlength="100"/>
+                    </svg>
+                    <span>50%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="proyectos__container">
+        <h2 class="titulos">Proyectos</h2>
+        <div class="proyectos__container-cards">
+            <div class="proyectos__container-card">
+                <img src="assets/img/MINIATURA-ARGEPROGR.jpg" class="proyectos__container-card-img">
+                <div class="proyectos__container-card-body">
+                  <h5 class="proyectos__container-card-title">Portfolio Web</h5>
+                  <p class="proyectos__container-card-text">Mi primer Portfolio Web realizado en el curso Argentina Programa 4.0</p>
+                  <button class="proyectos__container-card-button"><a href="#" class="proyectos__container-card-link">Portfolio</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
